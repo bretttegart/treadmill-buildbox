@@ -1,0 +1,6 @@
+[submodule "treadmill"]
+	path = treadmill
+	url = git@github.com:Morgan-Stanley/treadmill.git
+[submodule "treadmill-pid1"]
+	path = treadmill-pid1
+	url = git@github.com:Morgan-Stanley/treadmill-pid1.git
