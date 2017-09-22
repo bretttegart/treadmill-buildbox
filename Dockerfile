@@ -21,5 +21,4 @@ WORKDIR /build/treadmill
 # See https://github.com/pantsbuild/pex/issues/164
 RUN sed -i 's/git+https:\/\/github.com\/ceache\/kazoo/#git+https:\/\/github.com\/ceache\/kazoo/' requirements.txt
 
-#ENTRYPOINT ["/build/treadmill/build_binary.sh"]
-CMD ["/bin/bash"]
+ENTRYPOINT ["/build/treadmill/build_binary.sh"]
