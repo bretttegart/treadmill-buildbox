@@ -12,7 +12,7 @@ Run the docker container. If selinux is installed, flag the volume mount with :Z
 Tested against libselinux-2.6-7
 docker run -v /tmp/treadmill-binary:/build/treadmill/dist:Z tmbuild
 
-Upon completion, the treadmill PEX executible and an RPM containing the executible will be written in the mounted folder. To run:
+Upon completion, the treadmill PEX executable and an RPM containing the executable will be written to the mounted folder. To run:
 /usr/bin/python3.4 /tmp/treadmill-binary/treadmill
 
 To install permanently, install the RPM or move the Treadmill PEX file to /usr/bin. 
